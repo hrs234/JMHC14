@@ -35,5 +35,8 @@ func proceed(data string) int {
 }
 
 func main() {
-	fmt.Println("RES: ", proceed("3 5 5 5 5 5"))
+	fmt.Println("h#1: ", proceed("1 10 10 5 4"))
+	fmt.Println("h#2: ", proceed("2 5 5 5 5 5 5"))
+	fmt.Println("h#3: ", proceed("3 10 10"))
+
 }
